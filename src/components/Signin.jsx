@@ -65,16 +65,15 @@ const Signin = () => {
 
         {data.map((e, index) => {
                     return(
-                       <div key={index}>
-                          <label htmlFor={e.localizeInfos.title}>{e.localizeInfos.title}</label>
+                       
                           <input className='inputs'
-                            
+                            key={index}
                             name={e.localizeInfos.title}
                             id={e.localizeInfos.title}
                             type={e.type}
+                            placeholder={e.localizeInfos.title}
                             onChange={handleChange}
                           ></input>
-                       </div>
                         
                     )
                 })}
