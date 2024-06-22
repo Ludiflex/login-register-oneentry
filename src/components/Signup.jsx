@@ -53,8 +53,8 @@ const Signup = () => {
                 ],
                 notificationData: {
                     email: userData.Email,
-                    phonePush: "+999999999",
-                    phoneSMS: "+999999999"
+                    phonePush: "+999999999999",
+                    phoneSMS: "+999999999999"
     }
                
             }
