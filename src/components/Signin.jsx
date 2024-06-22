@@ -81,7 +81,7 @@ const Signin = () => {
         <button className="btn" onClick={checkData}>Submit</button>
 
         <p className="text">Don't have an account?
-          <Link to="/signup" className="links">Go to Register</Link>
+          <Link to="/" className="links">Go to Register</Link>
         </p>
       </div>
     </>
