@@ -8,8 +8,8 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
      return (
        <BrowserRouter> 
          <Routes>
-           <Route path="/" element={<Home />} />
-           <Route path="/signup" element={<Signup />} />
+           <Route path="/" element={<Signup />} />
+           <Route path="/home" element={<Home />} />
            <Route path="/signin" element={<Signin />} />
          </Routes>
        </BrowserRouter>
